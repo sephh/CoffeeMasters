@@ -14,6 +14,7 @@
 		6D85576C2991047C00712C6C /* CoffeeMastersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85576B2991047C00712C6C /* CoffeeMastersTests.swift */; };
 		6D8557762991047C00712C6C /* CoffeeMastersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8557752991047C00712C6C /* CoffeeMastersUITests.swift */; };
 		6D8557782991047C00712C6C /* CoffeeMastersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8557772991047C00712C6C /* CoffeeMastersUITestsLaunchTests.swift */; };
+		6D85578529911F5900712C6C /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85578429911F5900712C6C /* Offer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6D8557712991047C00712C6C /* CoffeeMastersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeMastersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8557752991047C00712C6C /* CoffeeMastersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersUITests.swift; sourceTree = "<group>"; };
 		6D8557772991047C00712C6C /* CoffeeMastersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D85578429911F5900712C6C /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				6D85575A2991047A00712C6C /* CoffeeMastersApp.swift */,
 				6D85575C2991047A00712C6C /* ContentView.swift */,
+				6D85578429911F5900712C6C /* Offer.swift */,
 				6D85575E2991047C00712C6C /* Assets.xcassets */,
 				6D8557602991047C00712C6C /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D85578529911F5900712C6C /* Offer.swift in Sources */,
 				6D85575D2991047A00712C6C /* ContentView.swift in Sources */,
 				6D85575B2991047A00712C6C /* CoffeeMastersApp.swift in Sources */,
 			);
@@ -419,6 +423,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeeMasters/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = COffeeMasters;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +452,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CoffeeMasters/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = COffeeMasters;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
